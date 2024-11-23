@@ -7,7 +7,7 @@ protcent_count_plus = 0
 protcent_count_zero = 0
 min = 0
 max = 0 
-spisok = [random.randint(-50, 50) for _ in range(25)] # Создаем список с 25 рандомными числами от -50 до 50
+spisok = [random.randint(-50, 50) for i in range(25)] # Создаем список с 25 рандомными числами от -50 до 50
 for i in spisok: #Находим кол-во положительных, отрицательных, чисел равных нулю , а так же минимальное и максимальное значение
     if i < 0:
         count_minus +=1
